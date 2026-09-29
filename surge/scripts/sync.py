@@ -140,6 +140,7 @@ def build(config, raw):
 def validate_profile(root, config, payloads=None):
     require(list(root.rglob('*.conf')) == [root / 'Surge.conf'] and not list(root.rglob('*.dconf')), '只能有一份 Surge.conf')
     section, sections, rules, policies, groups = '', set(), [], set(BUILTINS), {}
+    group_types = {}
     for line in entries((root / 'Surge.conf').read_text()):
         if line.startswith('['):
             require(bool(re.fullmatch(r'\[[A-Za-z ]+\]', line)) and line not in sections, '无效或重复节头')
@@ -153,14 +154,26 @@ def validate_profile(root, config, payloads=None):
             require(name not in policies, '重复策略')
             policies.add(name)
             if section == '[Proxy Group]':
+                group_types[name] = fields(value.strip())[0]
                 groups[name] = fields(value.strip())[1:]
     require({'[General]', '[Proxy]', '[Proxy Group]', '[Rule]'} <= sections, '缺少配置节')
     edges = {}
     for name, members in groups.items():
+        for option in members:
+            if option.startswith('icon-url='):
+                url = option.split('=', 1)[1]
+                prefix = config['base_url'] + 'icons/'
+                require(url.startswith(prefix), '图标链接必须指向自己的仓库')
+                filename = url.removeprefix(prefix)
+                require(bool(re.fullmatch(r'[A-Za-z0-9_-]+\.png', filename)), '无效图标路径')
+                require((root / 'icons' / filename).read_bytes().startswith(b'\x89PNG\r\n\x1a\n'), '图标不是有效 PNG')
         refs = [v for v in members if '=' not in v]
         if name in FILTERED_GROUPS:
             # 显式成员不受 policy-regex-filter 约束，不能用 AllServer 回退。
-            require(refs == ['REJECT'], f'{name} 的显式成员必须仅为 REJECT，避免绕过筛选')
+            if group_types[name] == 'smart':
+                require(not refs, f'{name} 的 smart 成员须通过筛选导入，不能添加未筛选成员')
+            else:
+                require(group_types[name] == 'select' and refs == ['REJECT'], f'{name} 的显式成员必须仅为 REJECT，避免绕过筛选')
             patterns = [v.split('=', 1)[1] for v in members if v.startswith('policy-regex-filter=')]
             require(len(patterns) == 1 and patterns[0], f'{name} 缺少节点筛选条件')
             re.compile(patterns[0])

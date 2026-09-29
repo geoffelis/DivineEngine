@@ -154,6 +154,15 @@ class SyncTests(unittest.TestCase):
         path.write_text(profile.replace('United States = select, AllServer,', 'United States = select, REJECT,'))
         sync.validate_profile(self.root, self.config)
 
+    def test_smart_region_only_accepts_filtered_members(self):
+        path = self.root / 'Surge.conf'
+        profile = path.read_text().replace('[Rule]', 'AllServer = select, REJECT\nUnited States = smart, include-other-group=AllServer, policy-regex-filter=US\n[Rule]')
+        path.write_text(profile)
+        sync.validate_profile(self.root, self.config)
+        path.write_text(profile.replace('United States = smart,', 'United States = smart, AllServer,'))
+        with self.assertRaises(ValueError):
+            sync.validate_profile(self.root, self.config)
+
     def test_unknown_logical_rules_are_not_silently_ignored(self):
         for rule in ['OR,((DOMAIN,a.example),(DOMAIN,b.example))', 'NOT,((DOMAIN,a.example))']:
             with self.subTest(rule=rule), self.assertRaises(ValueError):

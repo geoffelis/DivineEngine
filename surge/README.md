@@ -4,7 +4,19 @@
 
 ## 接入
 
-将文件发布到 `geoffelis/DivineEngine` 的 `main` 分支后，在本地原配置中替换整个 `[Rule]` 节：
+仓库中的 `Surge.conf` 包含两个 Trojan 占位节点、28 个带图标的策略组和完整分流规则。占位节点不能连接；推荐从个人配置生成仓库外的私有版本：
+
+```bash
+python3 surge/scripts/export_local.py \
+  --source /Users/geoffyu/Downloads/GeoffSuperPower.surgeconfig.conf \
+  --output /Users/geoffyu/Downloads/GeoffSuperPower.DivineEngine.surgeconfig.conf
+```
+
+导出保留原配置的真实节点、General、Host、Rewrite、MITM 等设置，用仓库版本替换策略组和规则；原文件不变。有效的 AllServer 订阅也会保留。输出文件仅当前用户可读写，禁止写入仓库或覆盖已有文件。参考配置的订阅是占位文字，实际仅有两个美国节点；其他地区和 Snell 需补充对应节点或有效订阅。
+
+地区策略组使用 `smart`，通过名称筛选 AllServer 中的节点；没有匹配节点的地区无法使用。Automatic 默认选择美国组，Proxy 默认选择 Automatic。仓库模板中的服务器和密码均为占位值，真实凭据只保存在本地导出文件。
+
+将规则和图标发布到 `geoffelis/DivineEngine` 的 `main` 分支后，即可导入生成的本地配置。若只希望更新规则，也可在本地原配置中替换整个 `[Rule]` 节：
 
 ```ini
 [Rule]
@@ -13,13 +25,15 @@
 
 只引入远程配置的规则节，本地节点、订阅、策略组、DNS、Host、Rewrite 和 MITM 继续使用原设置。策略名称与原 GeoffSuperPower 配置兼容，不需添加额外 FINAL。具体语法见 [Surge 分离配置文档](https://manual.nssurge.com/profile/format.html)。旧客户端若不支持远程 include，可以复制远程 `[Rule]` 节到本地，列表仍从本仓库更新。
 
-也可通过上述 URL 导入整份配置，保存为可编辑的本地配置，再添加自己的节点。整份模板中的 AllServer 初始为 REJECT，需要添加并选择节点；地区组使用 select，初始为 REJECT；添加节点后需分别选择对应地区节点。地区组不再回退到 AllServer，以免美国等地区策略实际使用其他地区节点。原有配置的 smart 地区组可通过只引入 Rule 的方式保留。仓库不存放节点密码、订阅或 MITM 证书。
+也可通过上述 URL 导入整份模板，保存为可编辑的本地配置，再替换节点占位值。仓库不存放真实节点密码、订阅或 MITM 证书。
+
+所有策略图标保存在 `icons/`，配置只引用本仓库的图标 URL。重复使用的图标共用文件；`icons/sources.json` 记录下载来源和 SHA-256，便于后续核对。图标随仓库提交维护，不参与每日规则同步。
 
 Raw URL 需要能被 Surge 无认证读取。发布前新链接不会可用；私有仓库的普通 Raw 链接不能作为公开订阅使用。
 
 ## 应用模块
 
-目前由 63 个来源生成 **65 个模块**，另有 7 个个人规则列表。模块只有有效规则行，去除来源说明和标记域名、合并同类来源、删除重复行。同步地址集中记录在 `sources.json`；来源许可统一保存在 `NOTICE.md` 和 `licenses/`。
+目前由 63 个来源生成 **65 个模块**，另有 7 个个人规则列表。模块只有有效规则行，去除来源说明和标记域名、合并同类来源、删除重复行。同步地址集中记录在 `sources.json`。
 
 | 类别 | 模块举例 | 策略 |
 | --- | --- | --- |
@@ -87,6 +101,9 @@ NoAuto 默认 Mainland，未匹配流量默认直连；希望兜底代理时，�
 | `routing-cases.json` | 128 个关键分流的预期结果 |
 | `scripts/sync.py` | 下载、构建、校验与清理过期模块 |
 | `scripts/routing.py` | 用于回归的有限离线匹配模型 |
+| `scripts/export_local.py` | 从个人配置生成仓库外的私有配置 |
+| `icons/*.png` | 策略组图标，随仓库发布 |
+| `icons/sources.json` | 图标来源与文件哈希 |
 
 在仓库根目录运行（Python 3.10+，无需依赖）：
 
