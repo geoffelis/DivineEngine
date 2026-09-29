@@ -164,9 +164,12 @@ def validate_profile(root, config, payloads=None):
                 url = option.split('=', 1)[1]
                 prefix = config['base_url'] + 'icons/'
                 require(url.startswith(prefix), '图标链接必须指向自己的仓库')
-                filename = url.removeprefix(prefix)
+                filename, separator, query = url.removeprefix(prefix).partition('?')
                 require(bool(re.fullmatch(r'[A-Za-z0-9_-]+\.png', filename)), '无效图标路径')
-                require((root / 'icons' / filename).read_bytes().startswith(b'\x89PNG\r\n\x1a\n'), '图标不是有效 PNG')
+                data = (root / 'icons' / filename).read_bytes()
+                require(data.startswith(b'\x89PNG\r\n\x1a\n'), '图标不是有效 PNG')
+                if separator:
+                    require(query == 'v=' + digest(data)[:12], '图标版本与文件内容不一致')
         refs = [v for v in members if '=' not in v]
         if name in FILTERED_GROUPS:
             # 显式成员不受 policy-regex-filter 约束，不能用 AllServer 回退。
