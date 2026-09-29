@@ -4,7 +4,7 @@
 
 ## 接入
 
-仓库中的 `Surge.conf` 包含两个 Trojan 占位节点、28 个带图标的策略组和完整分流规则。占位节点不能连接；推荐从个人配置生成仓库外的私有版本：
+仓库中的 `Surge.conf` 包含两个 Trojan 占位节点、29 个带图标的策略组和完整分流规则。占位节点不能连接；推荐从个人配置生成仓库外的私有版本：
 
 ```bash
 python3 surge/scripts/export_local.py \
@@ -39,7 +39,7 @@ Raw URL 需要能被 Surge 无认证读取。发布前新链接不会可用；�
 
 | 类别 | 模块举例 | 策略 |
 | --- | --- | --- |
-| 银行 / 支付 | `rules/Bank.list` | United States |
+| 银行 / 支付 | `rules/Bank.list` | Bank |
 | 券商 | `rules/Trade.list` | Trade |
 | 网盘 | `rules/PikPak.list` | United States |
 | AI | `AI`、`AppleIntelligence`、`Bing` | AI |
@@ -81,9 +81,9 @@ NoAuto 默认 Mainland，未匹配流量默认直连；希望兜底代理时，�
 
 ## 银行与券商
 
-`rules/Bank.list` 和 `rules/Trade.list` 是本仓库手工维护的应用列表，同步上游时不会被覆盖，内容不包含作者注释。两者位于广告、CDN 和国内通用规则之前。
+`rules/Bank.list` 和 `rules/Trade.list` 是本仓库手工维护的应用列表，同步上游时不会被覆盖，内容不包含作者注释。两者位于广告、CDN 和国内通用规则之前。Bank 和 Trade 都有独立策略组；Bank 默认选择 United States，也可单独切换为 US-ISP。
 
-- **Bank → United States**：PayPal（含静态资源、PayPal.Me、Venmo / Braintree 支付接口）、Capital One / 360、Chase、Bank of America（含静态资源）、Wells Fargo、Citi、U.S. Bank、PNC、Truist、Ally、Discover、American Express、SoFi、TD 美国网银。TD 仅收录 `tdbank.com`，不将加拿大的整个 `td.com` 强制分到美国。
+- **Bank → Bank**：PayPal（含静态资源、PayPal.Me、Venmo / Braintree 支付接口）、Capital One / 360、Chase、Bank of America（含静态资源）、Wells Fargo、Citi、U.S. Bank、PNC、Truist、Ally、Discover、American Express、SoFi、TD 美国网银。TD 仅收录 `tdbank.com`，不将加拿大的整个 `td.com` 强制分到美国。
 - **Trade → Trade**：Schwab、Firstrade、Fidelity、Interactive Brokers（含 IBKR 与 TWS 网关）、Vanguard、E*TRADE、Robinhood、Webull、Merrill、moomoo / 富途、Tiger、tastytrade。
 - 原 PayPal 规则已归入 Bank；PikPak 由 `rules/PikPak.list` 单独维护，继续走 United States。
 

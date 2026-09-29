@@ -93,7 +93,7 @@
   },
   {
     "host": "www.paypal.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "api-drive.mypikpak.com",
@@ -323,99 +323,99 @@
   },
   {
     "host": "paypal.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.paypalobjects.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "paypal.me",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "api.venmo.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "api.braintreegateway.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "payments.braintree-api.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "capitalone.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "verified.capitalone.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "secure.capitalone360.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "secure.chase.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "secure.bankofamerica.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "secure1.bac-assets.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "connect.secure.wellsfargo.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "online.citi.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.citibank.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "onlinebanking.usbank.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.pnc.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.truist.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "secure.ally.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.discover.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.discovercard.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.americanexpress.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "www.sofi.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "onlinebanking.tdbank.com",
-    "policy": "United States"
+    "policy": "Bank"
   },
   {
     "host": "client.schwab.com",
