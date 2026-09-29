@@ -1,0 +1,9 @@
+# 个人代理例外，映射到现有 Automatic 策略组。
+DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surgee.me
+DOMAIN-SUFFIX,www.torrentmac.net
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN,jable.tv
+DOMAIN,api.amplitude.com
+DOMAIN,m.cmx.im

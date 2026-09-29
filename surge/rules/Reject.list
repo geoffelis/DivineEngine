@@ -1,0 +1,5 @@
+# 从原配置保留的个人拦截偏好；Direct.list 的例外需先匹配。
+# 禁用应用关联服务会影响 Universal Links，按个人需要删除下一行。
+DOMAIN,app-site-association.cdn-apple.com
+DOMAIN-KEYWORD,96110
+DOMAIN-SUFFIX,gjfzpt.cn

@@ -1,0 +1,516 @@
+[
+  {
+    "host": "chatgpt.com",
+    "policy": "AI"
+  },
+  {
+    "host": "files.oaiusercontent.com",
+    "policy": "AI"
+  },
+  {
+    "host": "api.openai.com",
+    "policy": "AI"
+  },
+  {
+    "host": "auth.openai.com",
+    "policy": "AI"
+  },
+  {
+    "host": "cdn.openaimerge.com",
+    "policy": "AI"
+  },
+  {
+    "host": "ab.oaistatsig.com",
+    "policy": "AI"
+  },
+  {
+    "host": "claude.ai",
+    "policy": "AI"
+  },
+  {
+    "host": "api.anthropic.com",
+    "policy": "AI"
+  },
+  {
+    "host": "artifacts.claudeusercontent.com",
+    "policy": "AI"
+  },
+  {
+    "host": "cursor.com",
+    "policy": "AI"
+  },
+  {
+    "host": "api2.cursor.sh",
+    "policy": "AI"
+  },
+  {
+    "host": "marketplace.cursorapi.com",
+    "policy": "AI"
+  },
+  {
+    "host": "downloads.cursor-cdn.com",
+    "policy": "AI"
+  },
+  {
+    "host": "test.us9.cursorvm.com",
+    "policy": "AI"
+  },
+  {
+    "host": "api.githubcopilot.com",
+    "policy": "AI"
+  },
+  {
+    "host": "copilot-proxy.githubusercontent.com",
+    "policy": "AI"
+  },
+  {
+    "host": "copilot.microsoft.com",
+    "policy": "AI"
+  },
+  {
+    "host": "api.github.com",
+    "policy": "AI"
+  },
+  {
+    "host": "api.openrouter.ai",
+    "policy": "AI"
+  },
+  {
+    "host": "gemini.google.com",
+    "policy": "AI"
+  },
+  {
+    "host": "generativelanguage.googleapis.com",
+    "policy": "AI"
+  },
+  {
+    "host": "apple-relay.cloudflare.com",
+    "policy": "AI"
+  },
+  {
+    "host": "apple-relay.fastly-edge.com",
+    "policy": "AI"
+  },
+  {
+    "host": "www.paypal.com",
+    "policy": "United States"
+  },
+  {
+    "host": "api-drive.mypikpak.com",
+    "policy": "United States"
+  },
+  {
+    "host": "dl-a.mypikpak.com",
+    "policy": "United States"
+  },
+  {
+    "host": "gspe1-ssl.ls.apple.com",
+    "policy": "United States"
+  },
+  {
+    "host": "news-client-search.apple.com",
+    "policy": "United States"
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "www.reddit.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "www.wikipedia.org",
+    "policy": "Automatic"
+  },
+  {
+    "host": "www.spotify.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "api.spotify.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "unrelated.googleapis.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "www.cloudflare.com",
+    "policy": "Automatic"
+  },
+  {
+    "host": "app.vercel.app",
+    "policy": "Automatic"
+  },
+  {
+    "host": "104.154.127.126",
+    "policy": "Automatic"
+  },
+  {
+    "host": "www.apple.com",
+    "policy": "Apple"
+  },
+  {
+    "host": "music.apple.com",
+    "policy": "Apple"
+  },
+  {
+    "host": "api.onedrive.com",
+    "policy": "OneDrive"
+  },
+  {
+    "host": "onedrive.live.com",
+    "policy": "OneDrive"
+  },
+  {
+    "host": "www.youtube.com",
+    "policy": "YouTube"
+  },
+  {
+    "host": "i.ytimg.com",
+    "policy": "YouTube"
+  },
+  {
+    "host": "rr1.googlevideo.com",
+    "policy": "YouTube"
+  },
+  {
+    "host": "www.google.com",
+    "policy": "YouTube"
+  },
+  {
+    "host": "www.netflix.com",
+    "policy": "Netflix"
+  },
+  {
+    "host": "103.87.204.1",
+    "policy": "Netflix"
+  },
+  {
+    "host": "www.disneyplus.com",
+    "policy": "Disney+"
+  },
+  {
+    "host": "www.tiktok.com",
+    "policy": "TikTok"
+  },
+  {
+    "host": "api.tiktokv.us",
+    "policy": "TikTok"
+  },
+  {
+    "host": "www.bilibili.com",
+    "policy": "Bilibili"
+  },
+  {
+    "host": "api.bilibili.com",
+    "policy": "Bilibili"
+  },
+  {
+    "host": "t.me",
+    "policy": "Telegram"
+  },
+  {
+    "host": "api.telegram.org",
+    "policy": "Telegram"
+  },
+  {
+    "host": "149.154.160.1",
+    "policy": "Telegram"
+  },
+  {
+    "host": "2001:b28:f23d::1",
+    "policy": "Telegram"
+  },
+  {
+    "host": "www.wechat.com",
+    "policy": "WeChat"
+  },
+  {
+    "host": "www.speedtest.net",
+    "policy": "Speedtest"
+  },
+  {
+    "host": "www.schwab.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.firstrade.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "apps.apple.com",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "prpr.96110.cn.com",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "dl.google.com",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "update.googleapis.com",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "router.local",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "192.168.1.1",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "127.0.0.1",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "fe80::1",
+    "policy": "DIRECT"
+  },
+  {
+    "host": "www.taobao.com",
+    "policy": "Mainland"
+  },
+  {
+    "host": "www.jd.com",
+    "policy": "Mainland"
+  },
+  {
+    "host": "download.jetbrains.com",
+    "policy": "Mainland"
+  },
+  {
+    "host": "router.asus.com",
+    "policy": "Mainland"
+  },
+  {
+    "host": "app-site-association.cdn-apple.com",
+    "policy": "REJECT"
+  },
+  {
+    "host": "gjfzpt.cn",
+    "policy": "REJECT"
+  },
+  {
+    "host": "39.97.128.148",
+    "policy": "REJECT-DROP"
+  },
+  {
+    "host": "unmatched.divineengine.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "openai.evil.example",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "chatgpt.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "rr1.googlevideo.com",
+    "protocol": "UDP",
+    "policy": "REJECT-NO-DROP"
+  },
+  {
+    "host": "unmatched.divineengine.test",
+    "process": "qbittorrent",
+    "policy": "Mainland"
+  },
+  {
+    "host": "paypal.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.paypalobjects.com",
+    "policy": "United States"
+  },
+  {
+    "host": "paypal.me",
+    "policy": "United States"
+  },
+  {
+    "host": "api.venmo.com",
+    "policy": "United States"
+  },
+  {
+    "host": "api.braintreegateway.com",
+    "policy": "United States"
+  },
+  {
+    "host": "payments.braintree-api.com",
+    "policy": "United States"
+  },
+  {
+    "host": "capitalone.com",
+    "policy": "United States"
+  },
+  {
+    "host": "verified.capitalone.com",
+    "policy": "United States"
+  },
+  {
+    "host": "secure.capitalone360.com",
+    "policy": "United States"
+  },
+  {
+    "host": "secure.chase.com",
+    "policy": "United States"
+  },
+  {
+    "host": "secure.bankofamerica.com",
+    "policy": "United States"
+  },
+  {
+    "host": "secure1.bac-assets.com",
+    "policy": "United States"
+  },
+  {
+    "host": "connect.secure.wellsfargo.com",
+    "policy": "United States"
+  },
+  {
+    "host": "online.citi.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.citibank.com",
+    "policy": "United States"
+  },
+  {
+    "host": "onlinebanking.usbank.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.pnc.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.truist.com",
+    "policy": "United States"
+  },
+  {
+    "host": "secure.ally.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.discover.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.discovercard.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.americanexpress.com",
+    "policy": "United States"
+  },
+  {
+    "host": "www.sofi.com",
+    "policy": "United States"
+  },
+  {
+    "host": "onlinebanking.tdbank.com",
+    "policy": "United States"
+  },
+  {
+    "host": "client.schwab.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "invest.firstrade.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "digital.fidelity.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "ndcdyn.interactivebrokers.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.ibkr.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "cdc1.ibllc.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "mcgw1.ibllc.com.cn",
+    "policy": "Trade"
+  },
+  {
+    "host": "investor.vanguard.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "us.etrade.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "api.robinhood.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.webull.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.merrilledge.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "oaui.fs.ml.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.moomoo.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.futunn.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "www.itiger.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "developer.tigerbrokers.com.sg",
+    "policy": "Trade"
+  },
+  {
+    "host": "api.tastytrade.com",
+    "policy": "Trade"
+  },
+  {
+    "host": "capitalone.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "notcapitalone.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "paypal.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "schwab.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "fidelity.com.example.test",
+    "policy": "NoAuto"
+  },
+  {
+    "host": "unrelated-bank.example.test",
+    "policy": "NoAuto"
+  }
+]

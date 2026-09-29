@@ -1,0 +1,1151 @@
+{
+  "base_url": "https://raw.githubusercontent.com/geoffelis/DivineEngine/main/surge/",
+  "drop_rules": [
+    "DOMAIN,7h15.ru1353t.1s.m4d3.by.5ukk4w.skk.moe",
+    "DOMAIN-KEYWORD,openai"
+  ],
+  "sources": [
+    {
+      "id": "appleintelligence-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/apple_intelligence.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "ai-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "bing-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "reject-1",
+      "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/Adblock4limbo_surge.list",
+      "type": "RULE-SET",
+      "strip_reject_policy": true
+    },
+    {
+      "id": "unbreak-1",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/Unbreak.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "rejectdrop-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject-drop.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "rejectdomain-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf",
+      "type": "DOMAIN-SET"
+    },
+    {
+      "id": "reject-2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "rejectnodrop-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject-no-drop.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "substore-1",
+      "url": "https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/rule/substore.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "github-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "onedrive-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "facebook-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "threads-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Threads/Threads.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "instagram-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "applenews-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "appstore-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "appletv-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleTV/AppleTV.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "wechat-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "emby-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "discord-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "tesla-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tesla/Tesla.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "twitter-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "disney-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "netflix-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "tiktok-1",
+      "url": "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "bilibili-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "speedtest-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "youtube-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "googlesearch-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleSearch/GoogleSearch.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "riot-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Riot/Riot.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "telegram-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/telegram.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streamingus-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_us.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streamingeu-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_eu.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streamingjp-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_jp.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streamingkr-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_kr.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streaminghk-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_hk.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "streamingtw-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_tw.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "applecdn-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/apple_cdn.conf",
+      "type": "DOMAIN-SET"
+    },
+    {
+      "id": "apple-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "microsoft-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/microsoft.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "neteasemusic-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/neteasemusic.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "direct-1",
+      "url": "https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Direct.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "chinadns-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaDNS/ChinaDNS.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "xiaohongshu-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoHongShu/XiaoHongShu.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "china-1",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "china-2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/domestic.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "direct-2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/direct.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "china-3",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/China.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "downloaddomain-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf",
+      "type": "DOMAIN-SET"
+    },
+    {
+      "id": "download-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "cdndomain-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf",
+      "type": "DOMAIN-SET"
+    },
+    {
+      "id": "cdn-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "global-1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/global.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "global-2",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/Global.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "reject-3",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "telegram-2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/telegram.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "telegram-3",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/telegram_asn.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "neteasemusic-2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/neteasemusic.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "china-4",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/domestic.conf",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "china-5",
+      "url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "spotify-supplement",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list",
+      "type": "RULE-SET"
+    },
+    {
+      "id": "tiktok-supplement",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list",
+      "type": "RULE-SET"
+    }
+  ],
+  "modules": [
+    {
+      "name": "AppleIntelligence",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "appleintelligence-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/AppleIntelligence.list"
+    },
+    {
+      "name": "AI",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "ai-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/AI.list"
+    },
+    {
+      "name": "Bing",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "bing-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Bing.list"
+    },
+    {
+      "name": "Reject",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "reject-1",
+          "filter": "domain"
+        },
+        {
+          "source": "reject-2",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Reject.list"
+    },
+    {
+      "name": "Unbreak",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "unbreak-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Unbreak.list"
+    },
+    {
+      "name": "RejectDrop",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "rejectdrop-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/RejectDrop.list"
+    },
+    {
+      "name": "RejectDomain",
+      "type": "DOMAIN-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "rejectdomain-1",
+          "filter": "all"
+        }
+      ],
+      "path": "rules/upstream/RejectDomain.list"
+    },
+    {
+      "name": "RejectIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "reject-2",
+          "filter": "ip"
+        },
+        {
+          "source": "reject-3",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/RejectIP.list"
+    },
+    {
+      "name": "RejectNoDrop",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "rejectnodrop-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/RejectNoDrop.list"
+    },
+    {
+      "name": "SubStore",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "substore-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/SubStore.list"
+    },
+    {
+      "name": "GitHub",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "github-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/GitHub.list"
+    },
+    {
+      "name": "OneDrive",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "onedrive-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/OneDrive.list"
+    },
+    {
+      "name": "Facebook",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "facebook-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Facebook.list"
+    },
+    {
+      "name": "FacebookIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "facebook-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/FacebookIP.list"
+    },
+    {
+      "name": "Threads",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "threads-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Threads.list"
+    },
+    {
+      "name": "Instagram",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "instagram-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Instagram.list"
+    },
+    {
+      "name": "AppleNews",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "applenews-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/AppleNews.list"
+    },
+    {
+      "name": "AppStore",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "appstore-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/AppStore.list"
+    },
+    {
+      "name": "AppleTV",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "appletv-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/AppleTV.list"
+    },
+    {
+      "name": "WeChat",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "wechat-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/WeChat.list"
+    },
+    {
+      "name": "WeChatIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "wechat-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/WeChatIP.list"
+    },
+    {
+      "name": "Emby",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "emby-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Emby.list"
+    },
+    {
+      "name": "Discord",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "discord-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Discord.list"
+    },
+    {
+      "name": "Tesla",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "tesla-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Tesla.list"
+    },
+    {
+      "name": "Twitter",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "twitter-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Twitter.list"
+    },
+    {
+      "name": "TwitterIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "twitter-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/TwitterIP.list"
+    },
+    {
+      "name": "Disney",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "disney-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Disney.list"
+    },
+    {
+      "name": "Netflix",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "netflix-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Netflix.list"
+    },
+    {
+      "name": "NetflixIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "netflix-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/NetflixIP.list"
+    },
+    {
+      "name": "TikTok",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "tiktok-1",
+          "filter": "domain"
+        },
+        {
+          "source": "tiktok-supplement",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/TikTok.list"
+    },
+    {
+      "name": "BiliBili",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "bilibili-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/BiliBili.list"
+    },
+    {
+      "name": "BiliBiliIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "bilibili-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/BiliBiliIP.list"
+    },
+    {
+      "name": "Speedtest",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "speedtest-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Speedtest.list"
+    },
+    {
+      "name": "YouTube",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "youtube-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/YouTube.list"
+    },
+    {
+      "name": "YouTubeIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "youtube-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/YouTubeIP.list"
+    },
+    {
+      "name": "GoogleSearch",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "googlesearch-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/GoogleSearch.list"
+    },
+    {
+      "name": "Riot",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "riot-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Riot.list"
+    },
+    {
+      "name": "Telegram",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "telegram-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Telegram.list"
+    },
+    {
+      "name": "StreamingUS",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streamingus-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingUS.list"
+    },
+    {
+      "name": "StreamingEU",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streamingeu-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingEU.list"
+    },
+    {
+      "name": "StreamingJP",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streamingjp-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingJP.list"
+    },
+    {
+      "name": "StreamingKR",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streamingkr-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingKR.list"
+    },
+    {
+      "name": "StreamingHK",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streaminghk-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingHK.list"
+    },
+    {
+      "name": "StreamingTW",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "streamingtw-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/StreamingTW.list"
+    },
+    {
+      "name": "AppleCDN",
+      "type": "DOMAIN-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "applecdn-1",
+          "filter": "all"
+        }
+      ],
+      "path": "rules/upstream/AppleCDN.list"
+    },
+    {
+      "name": "Apple",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "apple-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Apple.list"
+    },
+    {
+      "name": "AppleIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "apple-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/AppleIP.list"
+    },
+    {
+      "name": "Microsoft",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "microsoft-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Microsoft.list"
+    },
+    {
+      "name": "NetEaseMusic",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "neteasemusic-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/NetEaseMusic.list"
+    },
+    {
+      "name": "Direct",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "direct-1",
+          "filter": "domain"
+        },
+        {
+          "source": "direct-2",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Direct.list"
+    },
+    {
+      "name": "ChinaDNS",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "chinadns-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/ChinaDNS.list"
+    },
+    {
+      "name": "ChinaDNSIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "chinadns-1",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/ChinaDNSIP.list"
+    },
+    {
+      "name": "XiaoHongShu",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "xiaohongshu-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/XiaoHongShu.list"
+    },
+    {
+      "name": "China",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "china-1",
+          "filter": "domain"
+        },
+        {
+          "source": "china-2",
+          "filter": "domain"
+        },
+        {
+          "source": "china-3",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/China.list"
+    },
+    {
+      "name": "ChinaIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "china-1",
+          "filter": "ip"
+        },
+        {
+          "source": "china-3",
+          "filter": "ip"
+        },
+        {
+          "source": "china-4",
+          "filter": "ip"
+        },
+        {
+          "source": "china-5",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/ChinaIP.list"
+    },
+    {
+      "name": "DownloadDomain",
+      "type": "DOMAIN-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "downloaddomain-1",
+          "filter": "all"
+        }
+      ],
+      "path": "rules/upstream/DownloadDomain.list"
+    },
+    {
+      "name": "Download",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "download-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Download.list"
+    },
+    {
+      "name": "CDNDomain",
+      "type": "DOMAIN-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "cdndomain-1",
+          "filter": "all"
+        }
+      ],
+      "path": "rules/upstream/CDNDomain.list"
+    },
+    {
+      "name": "CDN",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "cdn-1",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/CDN.list"
+    },
+    {
+      "name": "Global",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "global-1",
+          "filter": "domain"
+        },
+        {
+          "source": "global-2",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Global.list"
+    },
+    {
+      "name": "GlobalIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "global-2",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/GlobalIP.list"
+    },
+    {
+      "name": "TelegramIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "telegram-2",
+          "filter": "ip"
+        },
+        {
+          "source": "telegram-3",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/TelegramIP.list"
+    },
+    {
+      "name": "NetEaseMusicIP",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "neteasemusic-2",
+          "filter": "ip"
+        }
+      ],
+      "path": "rules/upstream/NetEaseMusicIP.list"
+    },
+    {
+      "name": "Spotify",
+      "type": "RULE-SET",
+      "phase": "domain",
+      "inputs": [
+        {
+          "source": "spotify-supplement",
+          "filter": "domain"
+        }
+      ],
+      "path": "rules/upstream/Spotify.list"
+    },
+    {
+      "name": "SpotifyIP",
+      "path": "rules/upstream/SpotifyIP.list",
+      "type": "RULE-SET",
+      "phase": "ip",
+      "inputs": [
+        {
+          "source": "spotify-supplement",
+          "filter": "ip"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN,bbc.mp-pxcdn.com
+DOMAIN-SUFFIX,tvlicensing.co.uk
+DOMAIN,itvpnpmobile-a.akamaihd.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
+USER-AGENT,ITV_Player*
+USER-AGENT,BBCiPlayer*

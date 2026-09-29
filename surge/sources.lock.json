@@ -1,0 +1,518 @@
+{
+  "modules": {
+    "rules/upstream/AI.list": {
+      "entries": 50,
+      "sha256": "d2c86b3d66d46f65788714d4d41d70c92560d420edc875339b92a23411e4d03b"
+    },
+    "rules/upstream/AppStore.list": {
+      "entries": 2,
+      "sha256": "20062ff2d80616e5fbdb360b54c8a9f184e8ec5be47601a4dd79345e8892ec4f"
+    },
+    "rules/upstream/Apple.list": {
+      "entries": 43,
+      "sha256": "78b921d6c9fef6290b3c8663c639bcab38bd92e95ec3d20dd5d7466bbf231394"
+    },
+    "rules/upstream/AppleCDN.list": {
+      "entries": 159,
+      "sha256": "c1d8dc4ffb026447e20799b2634126f9c0bc79bd65455c21018783155b57736a"
+    },
+    "rules/upstream/AppleIP.list": {
+      "entries": 13,
+      "sha256": "f9a5a87b27df0ce01e34b1937fc5545cc265fd62547942817567ccbe8d1e5492"
+    },
+    "rules/upstream/AppleIntelligence.list": {
+      "entries": 5,
+      "sha256": "b95bf545f595cd7d4a2cee64cb7a0555d236d10dfca08d53f2b9d3024d1d599e"
+    },
+    "rules/upstream/AppleNews.list": {
+      "entries": 2,
+      "sha256": "2ebd35c43a58cc28ce4d8534f9ff545ce95869a0c44e5f3412aef30e136de486"
+    },
+    "rules/upstream/AppleTV.list": {
+      "entries": 10,
+      "sha256": "7871a07d0e21c0cc3f8363b52dede8f2bbf5d02384f7c8d6c95dd5e36e554509"
+    },
+    "rules/upstream/BiliBili.list": {
+      "entries": 125,
+      "sha256": "d8144624be85f58d0989b0100c0b13a8d0f14e9ef3f2e3387f667593a292e146"
+    },
+    "rules/upstream/BiliBiliIP.list": {
+      "entries": 8,
+      "sha256": "08ac3638f03ac2e68e03cc92b01f66061a7c679f1993af161fc37f9269dd5f1c"
+    },
+    "rules/upstream/Bing.list": {
+      "entries": 9,
+      "sha256": "0b52e12f01d38cc048e5923480852044879545d48df0fef23a92f6e15db51e17"
+    },
+    "rules/upstream/CDN.list": {
+      "entries": 83,
+      "sha256": "82568762bd3f3923975c20205916ab504450274d44ab87119a16cc81344f5cf1"
+    },
+    "rules/upstream/CDNDomain.list": {
+      "entries": 4676,
+      "sha256": "4c098995eb0856e36ae0d32ac508ad181a0f482fa2972caaadb6979d39bf061e"
+    },
+    "rules/upstream/China.list": {
+      "entries": 1065,
+      "sha256": "61a09974db87d2fce14d3f3f3e7d5bb2fc1d02d1cc037b85a0eacb55fad30589"
+    },
+    "rules/upstream/ChinaDNS.list": {
+      "entries": 3,
+      "sha256": "771336df10edb2587d69df00fa93da919823ef411d7e4a18acf1a742214c9242"
+    },
+    "rules/upstream/ChinaDNSIP.list": {
+      "entries": 1,
+      "sha256": "b42af7a46040c7b112173e7283665608655848116ef17e1b5b729b26b1fa61a8"
+    },
+    "rules/upstream/ChinaIP.list": {
+      "entries": 17539,
+      "sha256": "9a3b742a6bc2c5f40a5868b608f0f82a0bc383641876578ec935ac5e3c44a70e"
+    },
+    "rules/upstream/Direct.list": {
+      "entries": 222,
+      "sha256": "a5bd0b16e4574bac8c9c8219aa491a890813a52708b107c3ae90e839db7dd5bd"
+    },
+    "rules/upstream/Discord.list": {
+      "entries": 29,
+      "sha256": "706943aeceae3cd4b5054de90f4323014c1fcb85af64308d8e492d764f912893"
+    },
+    "rules/upstream/Disney.list": {
+      "entries": 175,
+      "sha256": "1f89e04eaeaf3dba6ff2bbaeb02a3300ebc46d8a31bdc27a7ee886a55d80314f"
+    },
+    "rules/upstream/Download.list": {
+      "entries": 10,
+      "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
+    },
+    "rules/upstream/DownloadDomain.list": {
+      "entries": 1968,
+      "sha256": "e734d470ecc2b15c6ec485b46e5f60a2053c185fee00d6f5925544a1458e0464"
+    },
+    "rules/upstream/Emby.list": {
+      "entries": 52,
+      "sha256": "0348b3b6b2927dd7ac75f6a0870353b33327766a7e30c1c0bfd7ce3b29cc924e"
+    },
+    "rules/upstream/Facebook.list": {
+      "entries": 546,
+      "sha256": "1ae0ef4fac7550c3e170ace78c9eb344d13b7ebe7cc0f7ec00e346d1dd8abb66"
+    },
+    "rules/upstream/FacebookIP.list": {
+      "entries": 24,
+      "sha256": "f3b63f8e1a0625feb00b3f174975a2f60b8a6eccb4f4acded425085d737ece53"
+    },
+    "rules/upstream/GitHub.list": {
+      "entries": 31,
+      "sha256": "95299a16144b19c5ff24298c6ba2ab731dc05b99c22340b566408cedf71124ea"
+    },
+    "rules/upstream/Global.list": {
+      "entries": 1482,
+      "sha256": "d2b0a2e6f71696187f637ef414ae3bfbe44d341e9df3ee2df4562224c6c99a5f"
+    },
+    "rules/upstream/GlobalIP.list": {
+      "entries": 18,
+      "sha256": "1916e76349c986bbacb410d9e8334b20a146b54cce9ce0314b3dc842a96b537c"
+    },
+    "rules/upstream/GoogleSearch.list": {
+      "entries": 1,
+      "sha256": "94f0cfc25546376887de2b5443765310d66f9a1026c6e6f023168c69a6c9dd8e"
+    },
+    "rules/upstream/Instagram.list": {
+      "entries": 4,
+      "sha256": "0d97aa6e4a5a0993f8bb51926c5b45340f6c846d632a75b1dd76ff21ef6e844c"
+    },
+    "rules/upstream/Microsoft.list": {
+      "entries": 83,
+      "sha256": "bf60c87d7cfc4ad30d69f702ff16c53c18e2028b02e385d7aaca3808ac307fa6"
+    },
+    "rules/upstream/NetEaseMusic.list": {
+      "entries": 4,
+      "sha256": "2be9c5887275dc5d869faffbb33fbd18337c4f36bc76eec278b808eca2d90bd9"
+    },
+    "rules/upstream/NetEaseMusicIP.list": {
+      "entries": 17,
+      "sha256": "bf466465feb2ba6494fc1e4ccff0624609a482aa3ea3157d3201d595ac2f237b"
+    },
+    "rules/upstream/Netflix.list": {
+      "entries": 39,
+      "sha256": "160c07f33ef5d419483d01fbdae3f344f46a9b2f4ebe28232209d089343ea8e1"
+    },
+    "rules/upstream/NetflixIP.list": {
+      "entries": 1119,
+      "sha256": "d3b2533b6a5547aaf0ec91843f71b526570a87eeaf6c2a3248b1f7bac78c4cdf"
+    },
+    "rules/upstream/OneDrive.list": {
+      "entries": 18,
+      "sha256": "33aaada873533e6b60342c64d9fd9339e1a5ede0eefed3b7e7eb86d3c31971c3"
+    },
+    "rules/upstream/Reject.list": {
+      "entries": 842,
+      "sha256": "63104e5b0a7471cdfed3a01d7ec2c6949a97adc8e93af83afdc66c4a7620b490"
+    },
+    "rules/upstream/RejectDomain.list": {
+      "entries": 134473,
+      "sha256": "92f4cb726a9188d28260bb3b59c2137e69c7ff0d00a6b4199ca5868af0225b93"
+    },
+    "rules/upstream/RejectDrop.list": {
+      "entries": 28,
+      "sha256": "56cccda8d8ecbcef6fbf78029ce94c9316f7b491ac60464bbb36ccb359e3ee10"
+    },
+    "rules/upstream/RejectIP.list": {
+      "entries": 825,
+      "sha256": "d5cf009257f2b183ab96dc9eee3a51b504aa9cb407daab5c40cb98303f94c49c"
+    },
+    "rules/upstream/RejectNoDrop.list": {
+      "entries": 45,
+      "sha256": "670e897d9eb3684bbf9a9842ebcfa946db128605cdb54fe60a154894170c3c95"
+    },
+    "rules/upstream/Riot.list": {
+      "entries": 55,
+      "sha256": "c0f5595e705d1d00f039c38e2a2782735d77fb6084287f0f431339fc1d1b82e3"
+    },
+    "rules/upstream/Speedtest.list": {
+      "entries": 9,
+      "sha256": "3ca0cc8f155301712e1d3427e9fd711b2f18c9916627acefc242e611eee5bf45"
+    },
+    "rules/upstream/Spotify.list": {
+      "entries": 29,
+      "sha256": "0b4a50e50ef1fcec9cfbbe54516c09d01e1f6de861b695573e211f8db386161d"
+    },
+    "rules/upstream/SpotifyIP.list": {
+      "entries": 2,
+      "sha256": "1d8759ffe6b426ab94e95dc1d6d5cee08f45b55487ef847cc3f8ae614a66fc00"
+    },
+    "rules/upstream/StreamingEU.list": {
+      "entries": 10,
+      "sha256": "b78b0942eae71543ac01e8fbbfd10071e81f16a36afc07cf1e7a99d17637c600"
+    },
+    "rules/upstream/StreamingHK.list": {
+      "entries": 36,
+      "sha256": "d3ea7ab2be5bdb2ed81ecd843d217276931a06bfe10064125e24c3edfe8a597d"
+    },
+    "rules/upstream/StreamingJP.list": {
+      "entries": 27,
+      "sha256": "69820bf610e102b6df426ec2e61db25a63c7074d84b921287d1b81a803f8c933"
+    },
+    "rules/upstream/StreamingKR.list": {
+      "entries": 3,
+      "sha256": "d6fd20148da9f63992a2eca0117b9046b108cf51e89f2ca2eed10f1ee9fd29fd"
+    },
+    "rules/upstream/StreamingTW.list": {
+      "entries": 38,
+      "sha256": "6f6829a350feed3616ba678318bad3f0ecb12e9eec3de50c35c23c856b032a51"
+    },
+    "rules/upstream/StreamingUS.list": {
+      "entries": 52,
+      "sha256": "47913d729bc3937f53da4393fc4f29554b35f6e07693057f22cf2bf22309af17"
+    },
+    "rules/upstream/SubStore.list": {
+      "entries": 1,
+      "sha256": "3aa2c61eeff6e807fc14e9f35b525ddb98cf60da8a24d443fa46bed24fbf0dcc"
+    },
+    "rules/upstream/Telegram.list": {
+      "entries": 14,
+      "sha256": "499be7d3c31b5c17c5b31589fac1cfd6191a2b3fe684301ce168fd3523d26d99"
+    },
+    "rules/upstream/TelegramIP.list": {
+      "entries": 19,
+      "sha256": "d13cd67329497b9158640fe3390cf1b63093c14052763ff44979bf6091bad981"
+    },
+    "rules/upstream/Tesla.list": {
+      "entries": 12,
+      "sha256": "1a02f26133756e4b90a8cd3232eade69afe8d3b15a4390ada4f2e8b7e5a7c250"
+    },
+    "rules/upstream/Threads.list": {
+      "entries": 1,
+      "sha256": "ca40554fbc0734376a911bec5498ca97591694d5383c30ce51042a9e8a099045"
+    },
+    "rules/upstream/TikTok.list": {
+      "entries": 34,
+      "sha256": "a0054dbdb0f8ca2801ab60f5e9bdb0107ea00cbdfa00c41192b8b37d991efdb9"
+    },
+    "rules/upstream/Twitter.list": {
+      "entries": 27,
+      "sha256": "3013111f01c95a4e0b9f7e5ab1e6ceda99ba30b0a5adf53df9b2de94bd4b26c4"
+    },
+    "rules/upstream/TwitterIP.list": {
+      "entries": 6,
+      "sha256": "5180df31efc9654e3bf191bf5bdd9ef946f9616d58d858b632cd193007a3bc4e"
+    },
+    "rules/upstream/Unbreak.list": {
+      "entries": 19,
+      "sha256": "5962679e2dac958243e32a3ac673ce8cddb5b2d19868301f74df3e73252ee2a1"
+    },
+    "rules/upstream/WeChat.list": {
+      "entries": 264,
+      "sha256": "8a33f48b2d8d2c11688f663dae9e060e8b14d90d0240c45ff059b7dffcf4595f"
+    },
+    "rules/upstream/WeChatIP.list": {
+      "entries": 68,
+      "sha256": "62303c05b3eb7165b6f75592a0f6385653c592ad61b61feadddc006e06886b41"
+    },
+    "rules/upstream/XiaoHongShu.list": {
+      "entries": 4,
+      "sha256": "3d37c3a1cb8d59ccd5b34ba8350aaa0d5e66c7cf56dab568ddf2bf1eabed1429"
+    },
+    "rules/upstream/YouTube.list": {
+      "entries": 187,
+      "sha256": "febfe93db2c35861e2433a1a862b2642fd8f70225a40306e34274e371155ec2c"
+    },
+    "rules/upstream/YouTubeIP.list": {
+      "entries": 3,
+      "sha256": "a47e7248c7ec418797f3ed4eb71be59012a915d722da2e17cc1f6375b34b80d4"
+    }
+  },
+  "sources": {
+    "ai-1": {
+      "sha256": "92c818f6dc242420d27fa0fd9c07df75013af5645cdf9e3df964fef6d34837d9",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
+    },
+    "apple-1": {
+      "sha256": "ba566c2f44ed963517a49f570bdac01eff56d00f6c7da4435286ecb3bf0e0205",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list"
+    },
+    "applecdn-1": {
+      "sha256": "0c81cbe6af3a1c3befbe973441bb5667caf817a9447fca55022182d015669180",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/apple_cdn.conf"
+    },
+    "appleintelligence-1": {
+      "sha256": "728d4a842e4507e042b929ed599b9a9a3de4e89ba4a29438594470dd40c1a5f8",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/apple_intelligence.conf"
+    },
+    "applenews-1": {
+      "sha256": "ec57625e5b938396b92034c0d71eadbd0c4a1adbff8243f05d8bb97441ad1b26",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleNews/AppleNews.list"
+    },
+    "appletv-1": {
+      "sha256": "1078a83e65a4d65cf754e267c369f667fe4b30937747232f809aa03223148bbd",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleTV/AppleTV.list"
+    },
+    "appstore-1": {
+      "sha256": "245ea6eb4c7fa160824476c937be4f15f3925d83fba1d94bb3b6cc58562feb90",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppStore/AppStore.list"
+    },
+    "bilibili-1": {
+      "sha256": "8537129301d5e4040d9f2b2255217458a16c96eef850ec22367352c512bc3988",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list"
+    },
+    "bing-1": {
+      "sha256": "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list"
+    },
+    "cdn-1": {
+      "sha256": "110f955569b55bb09ca837c77dc8c43c99c75c3bee139d9049f3a6a25931b5c6",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
+    },
+    "cdndomain-1": {
+      "sha256": "b26ce674c4262b0e3d19af9b4df759b0ee059634a22de7c4d6f5706af32c2afb",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
+    },
+    "china-1": {
+      "sha256": "e1f45039ca4fd46c7ec4641b7c02daa70bedf924ccb625017579a2519ba12ffa",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
+    },
+    "china-2": {
+      "sha256": "c5c03b0c88e197cbdf3b55909772bf60be254a96fa0734476f903c9f537388c1",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/domestic.conf"
+    },
+    "china-3": {
+      "sha256": "551a2a62482cc0ce1737767d9333503e9ba84d8b7838debd966d46ea0b57e421",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/China.list"
+    },
+    "china-4": {
+      "sha256": "99fd01e3b16bb3715dc2a07f5e3c4fde213c2031469256282c55aa7e1ed46494",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/domestic.conf"
+    },
+    "china-5": {
+      "sha256": "50f106604b9da0b0adc3f17f0d004dd129684ae95811ac29f13471332c8bcafa",
+      "url": "https://raw.githubusercontent.com/VirgilClyne/GetSomeFries/main/ruleset/ASN.China.list"
+    },
+    "chinadns-1": {
+      "sha256": "bad645310af23d3266ff63913dae9e54f0295fa0b295c516b5ff388e902b9d2f",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaDNS/ChinaDNS.list"
+    },
+    "direct-1": {
+      "sha256": "c179f454b1292027624bcf5d2fa4fb0b58da568eb9cc8d485a3eee7d84d5d98d",
+      "url": "https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Direct.list"
+    },
+    "direct-2": {
+      "sha256": "46c65d1a59289d07f52f7652f9d1695d2996f65c125a14593b3eb7322086f8ec",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/direct.conf"
+    },
+    "discord-1": {
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list"
+    },
+    "disney-1": {
+      "sha256": "d0cfd6aee89d9d3075aef9dfadd98a2a3c6a2dba487f5091c801d1bcd70e9884",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list"
+    },
+    "download-1": {
+      "sha256": "741c1e7dda34bae2dd7611262c15431a66a50f6bdac24b96f070e1529479a594",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
+    },
+    "downloaddomain-1": {
+      "sha256": "f01106cfbec214e1916a65f482e6b6d6623c1ef6dd4f03262b5ef384acb1c042",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
+    },
+    "emby-1": {
+      "sha256": "48ae40d231b5429ef2c11459dd13b88c5ced78cee4dc964ce4e67291b8d59614",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list"
+    },
+    "facebook-1": {
+      "sha256": "747563c96825bbd5f868be955543b0ca1979064e7b094f8aab08aafbce577c36",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list"
+    },
+    "github-1": {
+      "sha256": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
+    },
+    "global-1": {
+      "sha256": "270bb9779f34df58825dab7ed591c51cd949411a6e54c8e2a06741da7a639eaa",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/global.conf"
+    },
+    "global-2": {
+      "sha256": "5490eeddc7375adb79f241963870f3947d2a3b7433fb84fe772db199c6e2336a",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/Global.list"
+    },
+    "googlesearch-1": {
+      "sha256": "c35c6a5350ca6b2c1fb15147cc92c23739592dea9715125f767ed9b507878ade",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GoogleSearch/GoogleSearch.list"
+    },
+    "instagram-1": {
+      "sha256": "65f28f9253b0dbb2a81485c788537896a0817766685e7bd91b2f90ec7aa19548",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list"
+    },
+    "microsoft-1": {
+      "sha256": "1cc7293548c9f251adf9e373a57bfef3501f6e6756d8234aed5415a5ead4e439",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/microsoft.conf"
+    },
+    "neteasemusic-1": {
+      "sha256": "8e3017a526f50ed80deddf4b26339f25cc0f60ad1c4ef0667ec7080f3ee1215e",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/neteasemusic.conf"
+    },
+    "neteasemusic-2": {
+      "sha256": "49783e54766c86852c17299e2aa0182e53fa31435e33f5b66a40c4e32705f29c",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/neteasemusic.conf"
+    },
+    "netflix-1": {
+      "sha256": "aa03f015949e8f6f981d90a7d8b1acf7e88472ee48601632bd964b0bb740f8aa",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list"
+    },
+    "onedrive-1": {
+      "sha256": "c13255b88e542f92ce26a8cca4367adcea81f9f04e00a41d03dc4869caa070ea",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list"
+    },
+    "reject-1": {
+      "sha256": "b121b389c514c9c37cbf8be9c65389ffbca7f3e000845c30fc92c9c3b9b495f2",
+      "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/Adblock4limbo_surge.list"
+    },
+    "reject-2": {
+      "sha256": "0620fd54346f03eb1a17cb18aeff45423cb801845aaa7a0eb7486277a1bff91a",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject.conf"
+    },
+    "reject-3": {
+      "sha256": "7015f1e7ea42006c532b2644c9c90e0d6213a5d4ecfa9a49569d08d16f872228",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
+    },
+    "rejectdomain-1": {
+      "sha256": "53beceeac14e48633a3dc1a25f7c3aec11a2b740eb835d566cf6ad6cda7d0c56",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
+    },
+    "rejectdrop-1": {
+      "sha256": "f5f3606947fdcb055fc1c937fc8e89b6692d5f63afc58f8a1bc45438853fcd11",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject-drop.conf"
+    },
+    "rejectnodrop-1": {
+      "sha256": "e0d48603980bd4c5862b0727e93ab0446d2c22a2a814cf4e2cbb5da28b2b8254",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject-no-drop.conf"
+    },
+    "riot-1": {
+      "sha256": "ae276909536cb1c4d0296fe1151b06c6d6ca574cb0c0293d62ecf76613b73971",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Riot/Riot.list"
+    },
+    "speedtest-1": {
+      "sha256": "d0f9a3b0befdfd209bf752b86e561094f7bb7e81d96e1df86c2ba585535ba755",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list"
+    },
+    "spotify-supplement": {
+      "sha256": "33bd52e8f23cda9374876259621c8fba21554035e20fa55daffbfcaee2109079",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list"
+    },
+    "streamingeu-1": {
+      "sha256": "722e0d571b44a13a06f3d17a7d74206d9023d5f34a4702e6298e37c98566180d",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_eu.conf"
+    },
+    "streaminghk-1": {
+      "sha256": "7893cb28a7e5f5cea8a122445e3331c98227c18cd2e7ca8282ddbde2705176e4",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_hk.conf"
+    },
+    "streamingjp-1": {
+      "sha256": "ad79821bb7d7c381e28f8b6972d487218a6176b87f60671901d9e2473f5c3645",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_jp.conf"
+    },
+    "streamingkr-1": {
+      "sha256": "40aa62a2122605612a5db88d51bb447d0d34cb95f8ab4b20cee4993f2aec33af",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_kr.conf"
+    },
+    "streamingtw-1": {
+      "sha256": "c3abeaed7b3783c55de5f7e8a718112f8fa477e919b3d7beaef6174433306025",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_tw.conf"
+    },
+    "streamingus-1": {
+      "sha256": "54887849393eb274da450ac0479c6e054a2227811be810f99dc39a0c1072ee83",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream_us.conf"
+    },
+    "substore-1": {
+      "sha256": "3e909fe692ff73aea191ea852311e616c203c80c7e8f6a0e1fa725eb5aefc2f1",
+      "url": "https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/rule/substore.list"
+    },
+    "telegram-1": {
+      "sha256": "bccbd162554d2cb56b16cdd59fbc2d1abec645bd53c9db18460137ffccbbc2a2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/telegram.conf"
+    },
+    "telegram-2": {
+      "sha256": "27f6bab896e98ec9631fd187ff5147fb101260fc7a322c0dc994bbd27ed0a81f",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/telegram.conf"
+    },
+    "telegram-3": {
+      "sha256": "d6d8f75ed1cae4c7de00c86a834c5f630abbc614f28f50f0a63e741ffa8d2cf9",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/telegram_asn.conf"
+    },
+    "tesla-1": {
+      "sha256": "ae77caa54b5da2ff4356f0aea156e2c3a99e54b6bf4dd2a28a8b3af657d5602c",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Tesla/Tesla.list"
+    },
+    "threads-1": {
+      "sha256": "e9b86a51952a33ee50ad3b31dc98bcb09699bbeb4d21371762b1124cb0091e86",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Threads/Threads.list"
+    },
+    "tiktok-1": {
+      "sha256": "34bbacbbb268ef20ace40dfeb3a5798c8a239b6407897f276b14398c7cf78a2b",
+      "url": "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list"
+    },
+    "tiktok-supplement": {
+      "sha256": "b44559153af1e15e49ea1f2e161230276aee0fd29d697f2a4d635f4a484e2220",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
+    },
+    "twitter-1": {
+      "sha256": "64c836f2431ca0d4728cc545bb74280ee50c886e346040012e6cdd2f3eee3f97",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list"
+    },
+    "unbreak-1": {
+      "sha256": "58899410bfa74f61fd70375acff7770be7f65b40f5b0b2d71507a2782403bb52",
+      "url": "https://raw.githubusercontent.com/zxfccmm4/Profiles/main/Surge/Ruleset/Unbreak.list"
+    },
+    "wechat-1": {
+      "sha256": "01e55617280a7b03db13397fcd2fe4bb3be559f728145fb1fbb054036d75d0bc",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/WeChat/WeChat.list"
+    },
+    "xiaohongshu-1": {
+      "sha256": "9fb20e80dc0962cfdf410ffbd72d6bf2a6a0ac0d930951880f98164ff229e8ff",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/XiaoHongShu/XiaoHongShu.list"
+    },
+    "youtube-1": {
+      "sha256": "42274e143447066e26e1ebbf21ae03ce6efb40827f41e2775a84fb16d390713d",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list"
+    }
+  }
+}

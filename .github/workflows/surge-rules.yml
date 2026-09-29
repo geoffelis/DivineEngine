@@ -1,0 +1,48 @@
+name: Sync Surge rules
+
+on:
+  schedule:
+    - cron: '23 22 * * *' # 北京时间每天 06:23
+  workflow_dispatch:
+  push:
+    paths: ['surge/**', '.github/workflows/surge-rules.yml']
+  pull_request:
+    paths: ['surge/**', '.github/workflows/surge-rules.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: surge-rules-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: python3 -m unittest discover -s surge/scripts -p 'test_*.py'
+      - run: python3 surge/scripts/sync.py --check
+
+  sync:
+    if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - run: python3 surge/scripts/sync.py
+      - run: python3 surge/scripts/sync.py --check
+      - name: Commit changed snapshots
+        run: |
+          git add surge/rules/upstream surge/sources.lock.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore(surge): update rule snapshots'
+          git push origin HEAD:main
