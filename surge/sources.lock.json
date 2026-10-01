@@ -49,12 +49,12 @@
       "sha256": "82568762bd3f3923975c20205916ab504450274d44ab87119a16cc81344f5cf1"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4676,
-      "sha256": "4c098995eb0856e36ae0d32ac508ad181a0f482fa2972caaadb6979d39bf061e"
+      "entries": 4678,
+      "sha256": "ca0c402b8183c0fdd12e1c00492c3d96c6789e0986a76f91a23b8cfc9495b29d"
     },
     "rules/upstream/China.list": {
-      "entries": 1065,
-      "sha256": "abca2c4943688beea6bf2c2154ee737ed69e8e677272bb0eb5b044f7c73252d1"
+      "entries": 1066,
+      "sha256": "510b0d73405e6ab79b2fa746a2dd603e418dabc44b4d748cbf35b28e68cb75c0"
     },
     "rules/upstream/ChinaDNS.list": {
       "entries": 3,
@@ -85,8 +85,8 @@
       "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
     },
     "rules/upstream/DownloadDomain.list": {
-      "entries": 1968,
-      "sha256": "e734d470ecc2b15c6ec485b46e5f60a2053c185fee00d6f5925544a1458e0464"
+      "entries": 1970,
+      "sha256": "0eead4e9cb30b8145a9df6582fb799d883a39338db2dacf7ce24725ed5e2af96"
     },
     "rules/upstream/Emby.list": {
       "entries": 52,
@@ -105,8 +105,8 @@
       "sha256": "95299a16144b19c5ff24298c6ba2ab731dc05b99c22340b566408cedf71124ea"
     },
     "rules/upstream/Global.list": {
-      "entries": 1482,
-      "sha256": "d2b0a2e6f71696187f637ef414ae3bfbe44d341e9df3ee2df4562224c6c99a5f"
+      "entries": 1483,
+      "sha256": "d871e2c3758cd95c8772a6211764afcbd54c025f2f3c17d5c2083f5c5b8197de"
     },
     "rules/upstream/GlobalIP.list": {
       "entries": 18,
@@ -145,12 +145,12 @@
       "sha256": "33aaada873533e6b60342c64d9fd9339e1a5ede0eefed3b7e7eb86d3c31971c3"
     },
     "rules/upstream/Reject.list": {
-      "entries": 842,
-      "sha256": "63104e5b0a7471cdfed3a01d7ec2c6949a97adc8e93af83afdc66c4a7620b490"
+      "entries": 847,
+      "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 134573,
-      "sha256": "36c2211e2579dfcfdad98177a68ef00b4adf17bdb618a13ec2b8d47437d81505"
+      "entries": 134700,
+      "sha256": "1e7c486c9a47c5668926ca8150f0df4765c4a03e3e9dcfd3080396daa5d8555c"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -303,7 +303,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "b26ce674c4262b0e3d19af9b4df759b0ee059634a22de7c4d6f5706af32c2afb",
+      "sha256": "69802cd6b567052e538a0bb9fce965cf679604a83754424513b44991feb67290",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
@@ -311,7 +311,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
     },
     "china-2": {
-      "sha256": "c5c03b0c88e197cbdf3b55909772bf60be254a96fa0734476f903c9f537388c1",
+      "sha256": "b939098609fd21d1e7e1efed05947fc7f55856d12e016944635bc64d2d8470c2",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/domestic.conf"
     },
     "china-3": {
@@ -351,7 +351,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
     },
     "downloaddomain-1": {
-      "sha256": "f01106cfbec214e1916a65f482e6b6d6623c1ef6dd4f03262b5ef384acb1c042",
+      "sha256": "65cea22ae2846709815a973c091c343d789423b50419d920f2853273d1055f90",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
     },
     "emby-1": {
@@ -367,7 +367,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
     },
     "global-1": {
-      "sha256": "270bb9779f34df58825dab7ed591c51cd949411a6e54c8e2a06741da7a639eaa",
+      "sha256": "708404b9ea6a756e4015257bfb132782cd3ffbe318e788430e397ded10ec3de9",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/global.conf"
     },
     "global-2": {
@@ -403,7 +403,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list"
     },
     "reject-1": {
-      "sha256": "b121b389c514c9c37cbf8be9c65389ffbca7f3e000845c30fc92c9c3b9b495f2",
+      "sha256": "df84afde87a886742d8e8caf8aa8182035da9b9cf77466972ebed182642e4473",
       "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/Adblock4limbo_surge.list"
     },
     "reject-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "531ba0e369bc0b9fd81b6311c866fd5e950f0390509bf8f20c5c116d78a2cb95",
+      "sha256": "4a3ffdfb0f4d2d0f293c2e65041e88cae704888b52bc49379e3a34ff8b452a61",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
