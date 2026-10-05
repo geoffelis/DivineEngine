@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 135144,
-      "sha256": "7509a7fa959fe73c078b71716da9a6a0ac16920fb791af6d174a0bab82a36d74"
+      "entries": 135275,
+      "sha256": "7656765f512caee82cb7143bc36d626c39908803ac4c82800014ae8ee10e3cfe"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "7e4b05a8624e194d6424ea2eb0df2ad9a86b86ea364e88519583153ba4990646",
+      "sha256": "a7dc380af02074d02ff6df9e727b453ea62aa1d30bbacb034090ac5a5d9e683c",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
