@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 135499,
-      "sha256": "2c1e5caee8b721b813d762107178b1c02011db4afbb16a7198aa8e3e3c12c39a"
+      "entries": 135702,
+      "sha256": "62841e012a2a615764adb1fcb4b8f89c8d24a29f3a1ee187b9441877b56feb94"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -403,7 +403,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list"
     },
     "reject-1": {
-      "sha256": "189c64da12e7ba509c2c8e420b671a6226553905483fc7787865ba4bc73205a6",
+      "sha256": "c1cd3000a3e1dbcc26e11c74ddbc7e26d26af8e1dce60dfc80aaf37eb842caac",
       "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/Adblock4limbo_surge.list"
     },
     "reject-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "6d6afe84f779cc8fa864d5ddc61b6961ee6c1275e09ef07eb15b028b75bda39a",
+      "sha256": "ed45cdd0e335cc0026d255edff493a4cc822e3987da851e6048d2b88c49985d0",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
