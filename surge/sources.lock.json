@@ -45,12 +45,12 @@
       "sha256": "0b52e12f01d38cc048e5923480852044879545d48df0fef23a92f6e15db51e17"
     },
     "rules/upstream/CDN.list": {
-      "entries": 83,
-      "sha256": "82568762bd3f3923975c20205916ab504450274d44ab87119a16cc81344f5cf1"
+      "entries": 84,
+      "sha256": "d1446356842d0a56fcc7837449623f0fc0ad61f37796963e7b4980567b867af7"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4680,
-      "sha256": "1d11bfddae08b2cdee527d404065928612eee35cbbf9c46b1c310971d17d1fce"
+      "entries": 4684,
+      "sha256": "519fa67c71c1303da5b4093b52cb1ca9910aa6242700b6ae5480b04a268dd88c"
     },
     "rules/upstream/China.list": {
       "entries": 1066,
@@ -85,8 +85,8 @@
       "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
     },
     "rules/upstream/DownloadDomain.list": {
-      "entries": 1970,
-      "sha256": "0eead4e9cb30b8145a9df6582fb799d883a39338db2dacf7ce24725ed5e2af96"
+      "entries": 1971,
+      "sha256": "d9931df84a87fbf07125dcc86ce930360ff9363b6feb72ec1b40a69c2d965ea6"
     },
     "rules/upstream/Emby.list": {
       "entries": 52,
@@ -105,8 +105,8 @@
       "sha256": "95299a16144b19c5ff24298c6ba2ab731dc05b99c22340b566408cedf71124ea"
     },
     "rules/upstream/Global.list": {
-      "entries": 1483,
-      "sha256": "d871e2c3758cd95c8772a6211764afcbd54c025f2f3c17d5c2083f5c5b8197de"
+      "entries": 1486,
+      "sha256": "59a18bfdb778020f1009b7419dfe15427b3c75463c28b5d325c1c2ffaf48c8dc"
     },
     "rules/upstream/GlobalIP.list": {
       "entries": 18,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 135820,
-      "sha256": "eb0cbc04b2012aac38751e261eecb69963ba4804d9e72743ed52438ad0e1ef5e"
+      "entries": 135973,
+      "sha256": "0af9ba39b22043afe293810dfc5fa48aacd3a43f29f22378dca22e633074b38b"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -299,11 +299,11 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Bing/Bing.list"
     },
     "cdn-1": {
-      "sha256": "110f955569b55bb09ca837c77dc8c43c99c75c3bee139d9049f3a6a25931b5c6",
+      "sha256": "57df4d858a615a2f1c8654264e1cf7f60da32f4cde983476a9cd94610ce618a0",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "ddd6b1e2cf80bb3c6b4407909818a60498c01ac6764cd1268456e0589cde543b",
+      "sha256": "db601285422327a91e829be147fe25e9b9d2779df7903d32f95447de1cead669",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
@@ -351,7 +351,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
     },
     "downloaddomain-1": {
-      "sha256": "65cea22ae2846709815a973c091c343d789423b50419d920f2853273d1055f90",
+      "sha256": "03ddc1a27a996d35f682000c4c7940e03d435c32651f5dd02cbfe2f34402a128",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
     },
     "emby-1": {
@@ -367,7 +367,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list"
     },
     "global-1": {
-      "sha256": "708404b9ea6a756e4015257bfb132782cd3ffbe318e788430e397ded10ec3de9",
+      "sha256": "5e0c7e212fe4e8dab6aa6082133346f05ac30a007c429bc983ae2c5a2535a0a9",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/global.conf"
     },
     "global-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "384d2d82233ba65c6b0eecc853192371f13f5a214c2d6c1a7943c5aba928b9b2",
+      "sha256": "6c55bdda11b0678ffb32f3ae221d43d748e80b44a1be3d96fedc9d1c4542a26f",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
