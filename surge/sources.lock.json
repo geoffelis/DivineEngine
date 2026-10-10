@@ -54,7 +54,7 @@
     },
     "rules/upstream/China.list": {
       "entries": 1066,
-      "sha256": "4f2e32d04b281f465f691232c044f4f7007fb9e228d457df346e2d27a7f14d13"
+      "sha256": "22f0804807a3ab1b2777af766d9e492cbbc70d6df4ecd5255e21ad0331606be9"
     },
     "rules/upstream/ChinaDNS.list": {
       "entries": 3,
@@ -65,8 +65,8 @@
       "sha256": "b42af7a46040c7b112173e7283665608655848116ef17e1b5b729b26b1fa61a8"
     },
     "rules/upstream/ChinaIP.list": {
-      "entries": 17595,
-      "sha256": "d474f3e1907c4f92e3bc5a46e1bc7f794d2eb66bde39833345887567514b6415"
+      "entries": 17608,
+      "sha256": "a7cf607b9973586e153561c9a8c2849a75478580ab87fdf98d11022754d46584"
     },
     "rules/upstream/Direct.list": {
       "entries": 222,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 135973,
-      "sha256": "0af9ba39b22043afe293810dfc5fa48aacd3a43f29f22378dca22e633074b38b"
+      "entries": 138421,
+      "sha256": "61731b6b3c40f4a08f4fc7b5815e011660fae935678142e0822959f51a4e7c9a"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -307,7 +307,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
-      "sha256": "b58cb1e125d7a22ccc599e127a1644b5918452e52b1b713cdffc42726abe8249",
+      "sha256": "c43602ec3f8784868e4a5fc38be158b458fa794669fcd867bf3d3c96967ca60d",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
     },
     "china-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "6c55bdda11b0678ffb32f3ae221d43d748e80b44a1be3d96fedc9d1c4542a26f",
+      "sha256": "12fb0cb52f9c944aee95f373c2f4b8a0b0e0338ec343cdf1da8fae05cd2b7049",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
