@@ -149,16 +149,16 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 138421,
-      "sha256": "61731b6b3c40f4a08f4fc7b5815e011660fae935678142e0822959f51a4e7c9a"
+      "entries": 138443,
+      "sha256": "98fe81ccb71917c9ab005d2aafd3f51650f482104b8ec54997c959a335970a3a"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
       "sha256": "56cccda8d8ecbcef6fbf78029ce94c9316f7b491ac60464bbb36ccb359e3ee10"
     },
     "rules/upstream/RejectIP.list": {
-      "entries": 825,
-      "sha256": "d5cf009257f2b183ab96dc9eee3a51b504aa9cb407daab5c40cb98303f94c49c"
+      "entries": 826,
+      "sha256": "40595abe082ead014ca97be8eabde262b539010f6b2bbea079b3832a7036d27d"
     },
     "rules/upstream/RejectNoDrop.list": {
       "entries": 45,
@@ -403,7 +403,7 @@
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list"
     },
     "reject-1": {
-      "sha256": "c1cd3000a3e1dbcc26e11c74ddbc7e26d26af8e1dce60dfc80aaf37eb842caac",
+      "sha256": "a7ba6bdac7ef0e3e663b06e2a9874d6dc2c6f097d8f1901683478bc1e731258d",
       "url": "https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/rule/Surge/Adblock4limbo_surge.list"
     },
     "reject-2": {
@@ -411,11 +411,11 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject.conf"
     },
     "reject-3": {
-      "sha256": "7015f1e7ea42006c532b2644c9c90e0d6213a5d4ecfa9a49569d08d16f872228",
+      "sha256": "021228be383159d124ebee575c21300e32fbbdedbfb8764a9b11dd9c1aaca717",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "12fb0cb52f9c944aee95f373c2f4b8a0b0e0338ec343cdf1da8fae05cd2b7049",
+      "sha256": "b165e0c793b78df58697ff56e40a104175b2b8b074365baed39508e463812a47",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
