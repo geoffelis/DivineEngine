@@ -10,7 +10,7 @@
     },
     "rules/upstream/Apple.list": {
       "entries": 43,
-      "sha256": "78b921d6c9fef6290b3c8663c639bcab38bd92e95ec3d20dd5d7466bbf231394"
+      "sha256": "593e4a9f0cad790b689bef0f29c19756947826974da3dc4d171424cc2b4e6117"
     },
     "rules/upstream/AppleCDN.list": {
       "entries": 159,
@@ -54,7 +54,7 @@
     },
     "rules/upstream/China.list": {
       "entries": 1066,
-      "sha256": "b9bb4e83b781b0a1a474ad9766e3c36f5311551971597160706d39bfffaa64f8"
+      "sha256": "d5453f66605b293e68dc2b876141c6847c9ba8b70bea26e791b752b9749bac1c"
     },
     "rules/upstream/ChinaDNS.list": {
       "entries": 3,
@@ -65,8 +65,8 @@
       "sha256": "b42af7a46040c7b112173e7283665608655848116ef17e1b5b729b26b1fa61a8"
     },
     "rules/upstream/ChinaIP.list": {
-      "entries": 17638,
-      "sha256": "b0b46c37a0b834c40434087f4a6fd42c40632a64acdcb46d5f9abc3a0fbafad7"
+      "entries": 17644,
+      "sha256": "76617356b144e8497cf0a536f10620502ea2dfde84009a34caeba11af82eaf63"
     },
     "rules/upstream/Direct.list": {
       "entries": 222,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 140432,
-      "sha256": "a0765fbc890a3aae5d3af5893527286c25dfb98f1db564a95f0da036789084ee"
+      "entries": 140607,
+      "sha256": "2a40f5eeafdd6e20a3bd2f3a548d334772178c2d4f001d863652f176baa79137"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -267,7 +267,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
     },
     "apple-1": {
-      "sha256": "7b2453f8dba3e9a35d67ea53e3c932b3ede766a2d2b28d719a3cd92f2146d854",
+      "sha256": "98f443186519710a030ef6e7c578c4c701d5a5668bc784c703b371b5a7216be8",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list"
     },
     "applecdn-1": {
@@ -307,7 +307,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
-      "sha256": "7c476117deb5f6de0dc8abc05d03682695fb95984386fa1a37cea1ad59d28038",
+      "sha256": "34dca4d11afb9e8a21169069493e5f9bbea9b7547ab59b28570fb93b2a3e1709",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
     },
     "china-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "e75b5ef1d0c0129a7ab91fb53da0248496d8021809e7131b0cb0ac46431a6ec7",
+      "sha256": "b21d82bce26711f30106e33ba3ac8f1399a89c8492e253d005cbaca56ba5a114",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
