@@ -10,7 +10,7 @@
     },
     "rules/upstream/Apple.list": {
       "entries": 43,
-      "sha256": "593e4a9f0cad790b689bef0f29c19756947826974da3dc4d171424cc2b4e6117"
+      "sha256": "78b921d6c9fef6290b3c8663c639bcab38bd92e95ec3d20dd5d7466bbf231394"
     },
     "rules/upstream/AppleCDN.list": {
       "entries": 159,
@@ -49,12 +49,12 @@
       "sha256": "d1446356842d0a56fcc7837449623f0fc0ad61f37796963e7b4980567b867af7"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4688,
-      "sha256": "06dbafff25c656fe5d2e64943416a834f03b013c0c77e12b0f43e3665ffc25c3"
+      "entries": 4689,
+      "sha256": "ba5c4ae7bec16b3656d4e8a84b28818b41cf4a2e6badf29e5c4271ae7d47c772"
     },
     "rules/upstream/China.list": {
       "entries": 1066,
-      "sha256": "d5453f66605b293e68dc2b876141c6847c9ba8b70bea26e791b752b9749bac1c"
+      "sha256": "e895589a4328a0ec301665fd938ea1a88a44b1ff15e9a73d3c0b75ad2d5b4f04"
     },
     "rules/upstream/ChinaDNS.list": {
       "entries": 3,
@@ -65,8 +65,8 @@
       "sha256": "b42af7a46040c7b112173e7283665608655848116ef17e1b5b729b26b1fa61a8"
     },
     "rules/upstream/ChinaIP.list": {
-      "entries": 17644,
-      "sha256": "76617356b144e8497cf0a536f10620502ea2dfde84009a34caeba11af82eaf63"
+      "entries": 17642,
+      "sha256": "5db14f45687d243dd8142e18d646394195d9028e2c24661c73bd1ba966c8880e"
     },
     "rules/upstream/Direct.list": {
       "entries": 222,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 140397,
-      "sha256": "70aaa49d03330d5eed63bb0f2fce45c9e3379432a56a7f0d629783bb8a7d158f"
+      "entries": 140807,
+      "sha256": "7f564a517366c9574f61ce9f072ebda38ce4f7a4b127c27a35fbd01e037d38d1"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -225,8 +225,8 @@
       "sha256": "ca40554fbc0734376a911bec5498ca97591694d5383c30ce51042a9e8a099045"
     },
     "rules/upstream/TikTok.list": {
-      "entries": 34,
-      "sha256": "a0054dbdb0f8ca2801ab60f5e9bdb0107ea00cbdfa00c41192b8b37d991efdb9"
+      "entries": 37,
+      "sha256": "6b01ab202956054a62441ede153c3673372ec997e2b72839215320b24cd61ffc"
     },
     "rules/upstream/Twitter.list": {
       "entries": 27,
@@ -267,7 +267,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
     },
     "apple-1": {
-      "sha256": "98f443186519710a030ef6e7c578c4c701d5a5668bc784c703b371b5a7216be8",
+      "sha256": "ee24445288a5a05486d8a54d07cd0c15e620674e6282b23f2194c0e3c6f04a94",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list"
     },
     "applecdn-1": {
@@ -303,11 +303,11 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "052a85c7ac412abfeb5be4ae36536b10f09f128728b3eb1e1322b5f22fcd608b",
+      "sha256": "e44a67807f871ca9ed0b6b95005eddb7a5d753c7ad41f349144b73e5c9e940d1",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
-      "sha256": "34dca4d11afb9e8a21169069493e5f9bbea9b7547ab59b28570fb93b2a3e1709",
+      "sha256": "1b548bcfa758ec4e2e361cfbebe431250cba7d9b04cac53a9e75d9667b0d61f9",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
     },
     "china-2": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "61b6afa10770a276181ce4bbf935a302ec258962e48d34850e08155cc8dd37aa",
+      "sha256": "958a44d46b8f496a4b8b6fbf98f4e8ee446c1425e35f6a1016574ce54937cebc",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
@@ -491,7 +491,7 @@
       "url": "https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Surge/TikTok.list"
     },
     "tiktok-supplement": {
-      "sha256": "b44559153af1e15e49ea1f2e161230276aee0fd29d697f2a4d635f4a484e2220",
+      "sha256": "e61af08425f87c1bc81216364c0f8fffbfc0a9924aab89f133151f1ea56de6c2",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list"
     },
     "twitter-1": {
