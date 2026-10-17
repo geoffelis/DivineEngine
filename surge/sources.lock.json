@@ -49,8 +49,8 @@
       "sha256": "d1446356842d0a56fcc7837449623f0fc0ad61f37796963e7b4980567b867af7"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4689,
-      "sha256": "ba5c4ae7bec16b3656d4e8a84b28818b41cf4a2e6badf29e5c4271ae7d47c772"
+      "entries": 4691,
+      "sha256": "b42eb9d174b7eaa5f1def7467f6ad146dd4854f21a74c07b0a125caf1ab57527"
     },
     "rules/upstream/China.list": {
       "entries": 1066,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 140807,
-      "sha256": "7f564a517366c9574f61ce9f072ebda38ce4f7a4b127c27a35fbd01e037d38d1"
+      "entries": 140857,
+      "sha256": "a3b285fc3b600310a9207d684d81ecc5be4f5a29b7abe469f53176be40ef578c"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -303,7 +303,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "e44a67807f871ca9ed0b6b95005eddb7a5d753c7ad41f349144b73e5c9e940d1",
+      "sha256": "a45f84f1d34420f134bef22f1188786d3ad1ceb8f717f2c223a79b58abb52893",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "958a44d46b8f496a4b8b6fbf98f4e8ee446c1425e35f6a1016574ce54937cebc",
+      "sha256": "9f9c74585f8903c4842dc79a917a74435c519dd3dcbcfc9a7f94309b898d3e3e",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
