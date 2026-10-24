@@ -319,6 +319,7 @@ p.sda1.dev
 .pagecdn.io
 .pgimgs.com
 .phncdn.com
+pic2.99.co
 .pinimg.com
 .pixhost.to
 pixoraa.cc
@@ -1419,6 +1420,7 @@ api.bintray.com
 api.weather.com
 .app.gitbook.com
 asset.chase.com
+assets-v2.99.co
 assets.about.me
 assets.bbhub.io
 assets.canny.io
@@ -1426,6 +1428,7 @@ assets.cello.so
 assets.clibo.tw
 assets.game8.co
 assets.goat.com
+assets.grab.com
 assets.habr.com
 assets.jable.tv
 assets.kagi.com
@@ -2809,6 +2812,7 @@ archive.mozilla.org
 assets-cdn.jable.tv
 assets-cdn.porn.com
 assets-docs.dify.ai
+assets-static.99.co
 assets-www.xbox.com
 assets.adobedtm.com
 assets.airbuddy.app
@@ -3978,6 +3982,7 @@ s3media.squarespace.com
 safebrowsing.google.com
 .sciencedirectassets.com
 screenshots.webflow.com
+scribe-web-sdk.grab.com
 scripts.dailymail.co.uk
 server.arcgisonline.com
 static-assets.juksy.com
@@ -4414,6 +4419,7 @@ static-production.npmjs.com
 static-webfonts.myfonts.com
 static.acm.account.sony.com
 static.captcha-delivery.com
+static1.straitstimes.com.sg
 sts.online.visualstudio.com
 tvdownloaddw-a.akamaihd.net
 typescript.visualstudio.com
@@ -4679,6 +4685,7 @@ edge-cloud-resource-static.azureedge.net
 edgecdn-embza6g8cacagcbn.z01.azurefd.net
 cdn.mcauto-images-production.sendgrid.net
 cf-images.ap-northeast-1.prod.boltdns.net
+cf-images.ap-southeast-1.prod.boltdns.net
 marfeelexperimentsexperienceengine.mrf.io
 prod-streaming-video-msn-com.akamaized.net
 talon-website-prod.ecosec.on.epicgames.com
