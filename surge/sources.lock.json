@@ -10,7 +10,7 @@
     },
     "rules/upstream/Apple.list": {
       "entries": 43,
-      "sha256": "78b921d6c9fef6290b3c8663c639bcab38bd92e95ec3d20dd5d7466bbf231394"
+      "sha256": "593e4a9f0cad790b689bef0f29c19756947826974da3dc4d171424cc2b4e6117"
     },
     "rules/upstream/AppleCDN.list": {
       "entries": 159,
@@ -49,12 +49,12 @@
       "sha256": "f5b4777222aec72c0f9720a95739e8f91380b682fa91fbbba65ecbb00eec25b4"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4707,
-      "sha256": "1769072812edaff84b397fb029c35361fbdc05928d66a7843a918939e85c1248"
+      "entries": 4695,
+      "sha256": "5f313e478639cc736c1591eba4169da7ea36da81b6fdd6dafd464c0d91e69e9f"
     },
     "rules/upstream/China.list": {
       "entries": 1067,
-      "sha256": "2d12cd7cca2c618c140c115f396050b43292adcb394144c86a1c14e410cc6b6c"
+      "sha256": "a2e39f3769a2c5fa71af25411352a4db872b00a92f6d66e98a69124c2d676bcb"
     },
     "rules/upstream/ChinaDNS.list": {
       "entries": 3,
@@ -85,8 +85,8 @@
       "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
     },
     "rules/upstream/DownloadDomain.list": {
-      "entries": 1971,
-      "sha256": "d9931df84a87fbf07125dcc86ce930360ff9363b6feb72ec1b40a69c2d965ea6"
+      "entries": 1968,
+      "sha256": "f496df947a911598a0c723d4ea018f224298f77f2f1ca1fe58e807c46f04f6ba"
     },
     "rules/upstream/Emby.list": {
       "entries": 52,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 144758,
-      "sha256": "b2c54e1cbd71c49f36d1115e652ee4bdb9b4fe857a2a508c09766691b8184c37"
+      "entries": 144851,
+      "sha256": "f5b0f818201c71d2f454360dd12611f789d4edd8e691add799291faab916e4e8"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 28,
@@ -267,7 +267,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
     },
     "apple-1": {
-      "sha256": "ee24445288a5a05486d8a54d07cd0c15e620674e6282b23f2194c0e3c6f04a94",
+      "sha256": "cdfd3d4746541b6a73b129e510b37ed8b77e0b9737270f7fc83448304560ffbd",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list"
     },
     "applecdn-1": {
@@ -303,11 +303,11 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "674fffd9eb79396bf5e4cc77591b9f8f56c03c173553ba0b472b84fcd0d2f4d0",
+      "sha256": "b9a0c089af704e335148cec898fc1f91851e6e8f154c15d8992c98083928c06f",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
-      "sha256": "c01c5d23b4a509e85a765b1686dddd39ac9050d53d200e7fab81e4909abeba01",
+      "sha256": "19dab5c7e35f058d513115c89da8c1cc7a7acea91acea137f29be5a6c9aed456",
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax.list"
     },
     "china-2": {
@@ -351,7 +351,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
     },
     "downloaddomain-1": {
-      "sha256": "45a6c3ac5799c2cdeedbb5bb73dc33963de2b591ba0bda624b84a21b48b0c04f",
+      "sha256": "f3e248d215b68d165b89e844db9c4fd7bf422ae5a80037f370f5c8deabbeb3af",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
     },
     "emby-1": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "b2b1ba3499eae994c7c8064e5ee40155684c4d94984d2af99803c5e1eef7abbb",
+      "sha256": "cb616664586d4667835a731903ef24c577f4b870c49e881022dc93b38dd81b09",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
