@@ -85,8 +85,8 @@
       "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
     },
     "rules/upstream/DownloadDomain.list": {
-      "entries": 1968,
-      "sha256": "f496df947a911598a0c723d4ea018f224298f77f2f1ca1fe58e807c46f04f6ba"
+      "entries": 1969,
+      "sha256": "5e059334db7344736e0f311889e1c653725dea9425e9f7490bf7f1cd32c3b3db"
     },
     "rules/upstream/Emby.list": {
       "entries": 52,
@@ -149,8 +149,8 @@
       "sha256": "40cccb0868eb691ff1cf4c46caa1c1da304890da15b45e78cbf2fde62957f01c"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 147704,
-      "sha256": "11de4abfc54a42efa0082f1452aaf4d5861b97f2cb10d62aab5a459fae861d1d"
+      "entries": 147963,
+      "sha256": "7aafde2e4ac11e31382a1e5e27afc5c47d78e46e01765eb39742ff08fba23d08"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 31,
@@ -351,7 +351,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
     },
     "downloaddomain-1": {
-      "sha256": "f3e248d215b68d165b89e844db9c4fd7bf422ae5a80037f370f5c8deabbeb3af",
+      "sha256": "c95e7158e9dc631fbc00ae49453ccdd148f6fe23faa507e547d4271f32caa1c9",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
     },
     "emby-1": {
@@ -415,7 +415,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "a4d745e3794e6572e3a83b2aa883951b3516d69d2a7d38255078efec1ae3590c",
+      "sha256": "edbd55fd18a1bfe9cf7cb5c972f76f18d42473162b03c9b56cb8be0bc2f48dcd",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {
