@@ -39,7 +39,6 @@ DOMAIN,aida.googleapis.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN,aicode.googleapis.com
-DOMAIN,inference.codeium.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN,antigravity-unleash.goog

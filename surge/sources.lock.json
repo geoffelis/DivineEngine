@@ -1,8 +1,8 @@
 {
   "modules": {
     "rules/upstream/AI.list": {
-      "entries": 59,
-      "sha256": "123395ed4c57bf4a0f6ae9d28fe2a56938bf77e3094acaa4d0d59dafb3c68213"
+      "entries": 58,
+      "sha256": "4bd5fbe0496c2edc89e922052b29178adc5d946b31f38361ce74ec1b863aed91"
     },
     "rules/upstream/AppStore.list": {
       "entries": 2,
@@ -49,8 +49,8 @@
       "sha256": "f5b4777222aec72c0f9720a95739e8f91380b682fa91fbbba65ecbb00eec25b4"
     },
     "rules/upstream/CDNDomain.list": {
-      "entries": 4706,
-      "sha256": "6929722cc38fbbad52d90be98e9363b8df4ba628b1e22e6d615e64b6a5fa6469"
+      "entries": 4696,
+      "sha256": "ef45f25c0d83ba47db4c429c09a21abb7caef7d87f53ad0467a4bcbe3965f702"
     },
     "rules/upstream/China.list": {
       "entries": 1070,
@@ -85,8 +85,8 @@
       "sha256": "6997f5139760f7485b1a8f24f2d9159569c478f7bea70bff54d50615f60ba6bb"
     },
     "rules/upstream/DownloadDomain.list": {
-      "entries": 1969,
-      "sha256": "5e059334db7344736e0f311889e1c653725dea9425e9f7490bf7f1cd32c3b3db"
+      "entries": 1964,
+      "sha256": "50f4de1bd2cae41c88bb4f456e65f337873e83777e471b367cbbd01002b87640"
     },
     "rules/upstream/Emby.list": {
       "entries": 52,
@@ -149,16 +149,16 @@
       "sha256": "a647832aa0caae40ff96b27f0075534dac943a45f7c634f108c5ffe11de23afd"
     },
     "rules/upstream/RejectDomain.list": {
-      "entries": 152251,
-      "sha256": "0f233339cdaf358e1cd79e41a75db0855c71f5ef7a39aa061ea0a66e40fa2c09"
+      "entries": 146151,
+      "sha256": "721d36db5722f42f41b15e58787b14607e601038ea10a2f7b66588ba066418ed"
     },
     "rules/upstream/RejectDrop.list": {
       "entries": 31,
       "sha256": "1909ee65f99f29ceedd7e3361a26b5b267a11cf954db89d38b6cdce416c03a92"
     },
     "rules/upstream/RejectIP.list": {
-      "entries": 833,
-      "sha256": "66be5aabc5285ca40a63040a772229294209b02388b6190881f6d8f7197275c7"
+      "entries": 829,
+      "sha256": "7d075d35075cd70fac13bf11e4a33ee17aecbe449260dd3031efe33847241679"
     },
     "rules/upstream/RejectNoDrop.list": {
       "entries": 45,
@@ -263,7 +263,7 @@
   },
   "sources": {
     "ai-1": {
-      "sha256": "9bb1deda142ba4e15f17a8bb33fb3154928bbd6fece9ba7b9aa9a3471378b318",
+      "sha256": "407f909cbe02d5ae7061ddf182ac1c6441a3a2c19c1273774fea44984279d935",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/ai.conf"
     },
     "apple-1": {
@@ -303,7 +303,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/cdn.conf"
     },
     "cdndomain-1": {
-      "sha256": "029b57003a615886998e94e189cb74f5af68a7dca06f6ab88386ef8d458467f2",
+      "sha256": "463746d22961990284c5d572bddbb8544211a78a9d1b0c019ce8ce6993b4da15",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/cdn.conf"
     },
     "china-1": {
@@ -351,7 +351,7 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/download.conf"
     },
     "downloaddomain-1": {
-      "sha256": "c95e7158e9dc631fbc00ae49453ccdd148f6fe23faa507e547d4271f32caa1c9",
+      "sha256": "428058518e394fdf4d2db5f575760454ffc332fd5719b970f7d3751a6a3b00bd",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/download.conf"
     },
     "emby-1": {
@@ -411,11 +411,11 @@
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/reject.conf"
     },
     "reject-3": {
-      "sha256": "99809ef57bb04640d2690f198c7ab16484945e6aad0f9eca9a02e9a0d60658b2",
+      "sha256": "c7c9d8002026c4df1d026cd935eb096198d7bb7f3df29f30d4054ff4f6a70640",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/ip/reject.conf"
     },
     "rejectdomain-1": {
-      "sha256": "c7a935d3f413198655aad2627cf7883d6ddc7786ff8da16f17c861f08991ee84",
+      "sha256": "8f09ea189eee8cd11f330e3cde33d61f4004250b4beee082132501375ea8a01c",
       "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/domainset/reject.conf"
     },
     "rejectdrop-1": {

@@ -115,7 +115,6 @@ ftp.daum.net
 ftp.eq.uc.pt
 ftp.funet.fi
 ftp.is.co.za
-ftp.ktug.org
 ftp.lanet.kr
 ftp.linux.cz
 ftp.linux.it
@@ -761,7 +760,6 @@ cdimage.ubuntu.com
 cisco.yuntu.com.tw
 cpan-mirror.rbc.ru
 cpan.dcc.uchile.cl
-cpan.mines-albi.fr
 ctan.dcc.uchile.cl
 ctan.math.utah.edu
 ctan.mines-albi.fr
@@ -1450,10 +1448,8 @@ mirror.debian.ikoula.com
 mirror.digitaloceans.dev
 mirror.dimensiondata.com
 mirror.grid.uchicago.edu
-mirror.library.ucy.ac.cy
 .mirror.liquidtelecom.com
 mirror.mythic-beasts.com
-mirror.netcologne.de.org
 mirror.ubuntu.ikoula.com
 mirror.unix-solutions.be
 mirror.us.mirhosting.net
@@ -1592,7 +1588,6 @@ mirror.bharatdatacenter.com
 mirror.domainhizmetleri.com
 mirror.improve.nordlo.cloud
 mirror.retentionrange.co.bw
-mirror.thunderhosting.cloud
 mirror.united-gameserver.de
 mirrors.advancedhosters.com
 .oss-ap-south-1.aliyuncs.com
